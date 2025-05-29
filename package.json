@@ -1,6 +1,6 @@
 {
   "name": "@neuit/wepay",
-  "version": "1.0.20",
+  "version": "1.0.0",
   "description": "用于管理微信支付的Node.js接口库",
   "main": "lib/main.js",
   "scripts": {
