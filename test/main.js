@@ -14,9 +14,11 @@ async function main() {
         "currency" : "CNY"
       },
       "payer" : {
-        "openid" : "ovqdowRIfstpQK_kYShFS2MSS9XS"
+        "openid" : "oBP7_6jU45PW2Up6Gu0mx9yKp4ro"
       },
   });
   console.log(data);
+  const sign = await jsApiV3.orderSign(`prepay_id=${data.prepay_id}`);
+  console.log(sign);
 }
 main()
